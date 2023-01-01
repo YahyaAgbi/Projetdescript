@@ -1,0 +1,79 @@
+.content 
+{
+  background: url('Projt.jpg') center no-repeat; 
+  position: relative; 
+  display: flex; 
+  height: 100vh; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 0% 10%; 
+  background-size: cover;
+} 
+.nav-item{
+  --bs-nav-link-color: #e9ecef;
+ 
+}
+.mycontent 
+{
+  background-color: rgba(0,0,0,.3);
+   color: white; 
+   text-align: center; 
+   padding: 20%; 
+  border-radius: 20px;
+} 
+ .mycontent h1 
+ {
+  font-family:"Brush Script MT",cursive;
+ }
+.mycontent button 
+{ 
+  color:white;
+  background-color: rgb(67, 165, 42); 
+  padding: 20px; 
+  border-radius: 20px;
+
+} 
+
+ .Courses 
+ {
+  align-items: center;
+ }
+.Courses h1
+{
+text-align: center; 
+} 
+
+ .container 
+ { 
+  align-items: center;
+    text-align: center;
+   
+ }  
+
+  .container button 
+  {
+    background-color: rgb(59, 228, 81);
+    padding: 20px; 
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+.swiper 
+{
+  height: fit-content;  
+  
+  width: 300px;
+  height: 270px; 
+}  
+
+.swiper-slide img 
+{
+  width: 100%;
+} 
+
+img 
+{
+  width: 100%;
+  height: 20vh;
+}
