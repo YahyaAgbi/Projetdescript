@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="PAGE 1.css">
+</head>
+<style> 
+.small{
+    color: red;
+}
+</style>
+<body>
+  <form id="form">
+    <div class="container">
+    <h2>Sign up</h2>
+    <div>
+        <label for="Registerusername">Username:</label>
+        <br>
+        <input type="text" placeholder="Choose a username" id="Username" required/> 
+    </div>
+    <div>
+        <label for="Registeremail">Email:</label>
+        <br>
+        <input type="email" placeholder="Enter your Email" id="Email" oninput="ValidateEmail()" required/>
+        <br>    
+    </div>
+    <div class="pass">
+        <label for="psw">Password:</label>
+        <br>
+        <input type="password" placeholder="Enter your password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+               oninput="Password()"  />
+        <title id="small col-9"></title>
+    </div>
+    <div>
+        <label for="repasswd">Confirm password:</label>
+        <br>
+        <input type="password"  placeholder="Reenter your password" id="repasswd" />       
+    </div>
+        <button class="mybutton" onclick="Register()">register</button>
+    </div>
+    <div>
+    <span id="message"></span>
+    </div>
+    </div>
+  </form>
+    <script src="Projet.js"></script>
+</body>
+</html>
